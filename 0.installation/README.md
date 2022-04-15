@@ -32,7 +32,7 @@ Then, install the standard solid-state pseudopotentials family ([SSSP](https://w
 AiiDA and 2FA are not very close friends for reasons that will become clear later on - for now, we need to find a way to circumvent 2FA.
 
 - If you haven't already, start an agent with `$(eval-agent -s)`
-- add Lobster key with `ssh-add -l ~/.ssh/my_lobster_key`
+- add Lobster key with `ssh-add ~/.ssh/my_lobster_key`
 - edit the `~/.ssh/config` file, it should look like
 ```
 Host lobster
